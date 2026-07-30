@@ -1,0 +1,23 @@
+{
+  "name": "Back To Battle",
+  "short_name": "BackToBattle",
+  "description": "A two-player war strategy game with dice-driven movement, unit combat, and an AI opponent.",
+  "start_url": "./backtobattle.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "categories": ["games"],
+  "icons": [
+    { "src": "icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "screenshots/screenshot-1.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Battlefield grid with attacker and defender units" },
+    { "src": "screenshots/screenshot-2.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Dice roll determines movement distance" },
+    { "src": "screenshots/screenshot-3.png", "sizes": "1920x1080", "type": "image/png", "form_factor": "wide", "label": "Game setup: commander name, country, and control" }
+  ]
+}
